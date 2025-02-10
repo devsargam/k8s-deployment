@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: api
-        image: ifine/k8s-docker:latest
+        image: ifine/k8s-docker:v1
         ports:
         - containerPort: 3000
